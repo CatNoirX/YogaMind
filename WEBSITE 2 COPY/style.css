@@ -1,0 +1,390 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.site-header {
+    width: 100%;
+    height: auto;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+   
+
+}
+
+
+nav{
+    width: 100%; height: 100px;
+    /*background-color:  red;*/
+    display: flex; color: white;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu{
+    width: 50%; height: 100px;
+    
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #08f7d3 , #062bfa ); 
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 35px ; 
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.menu ul li a:hover{
+    background: linear-gradient(57deg, #062bfa, #08f7d3 );  
+}
+
+section{ display: flex;  }
+
+.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px; margin: 5%;}
+
+.leftside img{  width: 400px;  height: 500px; }
+
+.rightside{ width: 55%; height: 300px; color: rgb(250, 248, 248); text-align: center; margin-top: 100px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; } 
+
+.rightside p {  
+    font-size: 1.1rem; padding: 30px 0; }
+
+
+.AboutyOga{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(249, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.AboutyOga img{
+    width: 60%;
+    height: auto;
+    size: small;
+}
+   
+.aboutyoga{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(6, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.aboutyoga img{
+    width: 60%; height: 70vh;   
+      border: 10px solid black;  
+       border-radius: 100px 100px 100px 100px;
+}
+
+.Tadasana{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.Tadasana img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+
+.treePose{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.treePose img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.theCobraPose{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+.theCobraPose img{
+
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.ggggggggg{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.ggggggggg img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.Trikonasana{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.Trikonasana img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.catcow{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.catcow img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.padmasan{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+.padmasan img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.CorpsePose{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.CorpsePose img{
+    width: 60%; height: 70vh;   
+    border: 10px solid black;  
+     border-radius: 100px 100px 100px 100px;
+}
+
+.chairPose{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    size: 40;
+    font-size: 20px;
+}
+
+.chairPose img{
+    width: 60%; height: 70vh;
+    border: 10px solid black;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.text-gray-700-body-fontRelative{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.SURYANAMASKAR{
+  
+   margin-bottom: 3%;
+   margin-top: -2%;
+   size: 40px;
+   color: yellow;
+   border-radius: 20px 20px 20px 20px;
+   font-size: 30px;
+   text-align: center;
+
+}
+
+.Tadasna{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Vrikshasana{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Bhujangasana{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ADHO-MUKHASVANASANA{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tokeseheaaplog{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cat-cow{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Padmasana{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Nhsbchdsck{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Chair{
+    margin-bottom: 3%;
+    margin-top: -2%;
+    size: 40px;
+    color: yellow;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.smtext-3xl-text-2xl-font-medium-title-font-mb-4-text-gray-900{
+   margin-bottom: 10%;
+   font-size: 40px;
+}
+
+
+
+
+.text-color{
+    text-align: center;
+    font-family: 'ubuntu' , sans-serif;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 0, 0);
+   
+}
+ 
+.text-big{
+    font-size: 30px;
+    margin-bottom: 3%;
+    color: rgb(227, 243, 9);
+}
+
+.text-small{
+    font-size: 18px;
+           color: rgb(14, 240, 248);
+    }
